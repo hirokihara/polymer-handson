@@ -1,0 +1,25 @@
+{
+  "name": "polymer-handson",
+  "version": "0.0.0",
+  "homepage": "https://github.com/hirokihara/polymer-handson",
+  "authors": [
+    "Hiroki Kihara <fj8550jf@aa.jp.fujitsu.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "polymer": "~1.0.8",
+    "google-map": "GoogleWebComponents/google-map#~1.0.3"
+  },
+  "overrides": {
+    "webcomponentsjs": {
+      "main": "webcomponents-lite.js"
+    }
+  }
+}
